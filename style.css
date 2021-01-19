@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.background::after {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  left: 0;
+  opacity: 40%;
+  top: 0;
+}
+.layer1 {
+  content: "";
+  background-color: whitesmoke;
+  opacity: 1;
+  width: 500px;
+  height: 700px;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  top: 10%;
+  left: 37%;
+  box-shadow: 0px 5px 5px black;
+  border-radius: 2%;
+  opacity: 0.2;
+}
+.headline1 {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: lightcyan;
+  text-shadow: 0px 2px 2px black;
+  top: 10%;
+  left: 41%;
+  opacity: 0.8;
+}
+nav {
+  position: absolute;
+  width: 100%;
+  height: 5%;
+  top: 0;
+  background: linear-gradient(to right, #1c235b, #243171);
+  z-index: 3;
+  color: lightcyan;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  box-shadow: 0px 2px 2px black;
+  text-shadow: 0px 2px 2px black;
+  opacity: 0.8;
+}
+.instagramLink {
+  position: absolute;
+  z-index: 3;
+  top: 23%;
+  left: 48%;
+}
+.instagramLink button {
+  width: 250px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: lightcyan;
+  background-color: transparent;
+  color: lightcyan;
+  text-shadow: 0px 2px 2px black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-shadow: 0px 2px 2px black;
+}
+.instagramIcon {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+.instagramIcon img {
+  width: 100px;
+}
+.redditIcon {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+.redditIcon img {
+  width: 100px;
+}
+.redditLink {
+  position: absolute;
+  z-index: 3;
+  top: 43%;
+  left: 48%;
+}
+.redditLink button {
+  width: 250px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: lightcyan;
+  background-color: transparent;
+  color: lightcyan;
+  text-shadow: 0px 2px 2px black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-shadow: 0px 2px 2px black;
+}
+.tellIcon {
+  position: absolute;
+  top: 60%;
+  left: 39.5%;
+}
+.tellIcon img {
+  width: 130px;
+}
+.tellLink {
+  position: absolute;
+  z-index: 3;
+  top: 63%;
+  left: 48%;
+}
+.tellLink button {
+  width: 250px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: lightcyan;
+  background-color: transparent;
+  color: lightcyan;
+  text-shadow: 0px 2px 2px black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-shadow: 0px 2px 2px black;
+}
